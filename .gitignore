@@ -1,0 +1,7 @@
+/.env
+/README.md
+/__pycache__
+/dbt-jsonschema_main_schemas_dbt_yml_files.json
+/mekke.ipynb
+/rbt_orders.yml
+/tests
