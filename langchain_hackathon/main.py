@@ -11,10 +11,9 @@ FIELD_DOCUMENTATION_PATH = MODELS_DIRECTORY_PATH + '/field_documentation.md'
 
 
 if __name__ == '__main__':
-    # load models and
+
     raw_model_docs = load_all_model_docs(get_yaml_file_paths(MODELS_DIRECTORY_PATH))
     field_docs = load_field_descriptions(FIELD_DOCUMENTATION_PATH)
-
     all_model_docs = load_model_documentation_with_proper_field_docs(raw_model_docs, field_docs)
 
     dbt_model = Model(**all_model_docs['rbt_orders'])
