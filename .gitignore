@@ -5,3 +5,16 @@
 /mekke.ipynb
 /rbt_orders.yml
 /tests
+.DS_Store
+*.pyc
+*__pycache__/
+*.swp
+.user.yml
+.venv/
+dbt_modules/
+dbt_packages/
+logs/
+notebooks
+target/
+target-*/
+.idea/
